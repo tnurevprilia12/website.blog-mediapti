@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ngawulang - Portal Pendidikan Interaktif</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="assets/img/logo.png" alt="logo" style="height:36px;margin-right:10px">Ngawulang
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html#profil">Profil Sekolah</a></li>
+          <li class="nav-item"><a class="nav-link" href="materi.html">Materi Pembelajaran</a></li>
+          <li class="nav-item"><a class="nav-link" href="edukasi.html">Edukasi Masyarakat</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blogger</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-sm btn-outline-primary ms-2" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portal -->
+  <header class="Portal">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="display-5">Portal Pendidikan yang Ramah & Interaktif</h1>
+          <p class="lead">Sumber belajar, profil sekolah, dan program edukasi masyarakat — semua ditempatkan di satu tempat.</p>
+          <a href="materi.html" class="btn btn-primary me-2">Telusuri Materi</a>
+          <a href="#profil" class="btn btn-outline-primary">Profil Sekolah</a>
+          <div class="mt-4">
+            <small class="text-muted">Fitur: kuis interaktif, modul, galeri, dan blog pendidikan.</small>
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <img src="assets/img/portal.png" alt="Belajar" class="img-fluid rounded shadow-sm">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <!-- konten sama seperti HTML yang Anda kirim, dibersihkan agar menggunakan file lokal untuk gambar dan css -->
+
+    <!-- Profil Sekolah -->
+    <section id="profil" class="mb-5">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Profil Sekolah</h2>
+        <span class="topic-badge">Tentang Kami</span>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card card-hover h-100">
+            <img src="assets/img/prof1.jpg" class="card-img-top" alt="Bangunan Sekolah">
+            <div class="card-body">
+              <h5 class="card-title">Sejarah Singkat</h5>
+              <p class="card-text">Didirikan pada tahun 1998 dengan misi memberikan pendidikan berkualitas, berkarakter, dan berwawasan lingkungan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-hover h-100">
+            <img src="assets/img/prof2.webp" class="card-img-top" alt="Guru dan Siswa">
+            <div class="card-body">
+              <h5 class="card-title">Visi & Misi</h5>
+              <p class="card-text">Visi: Menjadi lembaga pendidikan unggul yang inklusif.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-hover h-100">
+            <img src="assets/img/prof3.jpg" class="card-img-top" alt="Fasilitas">
+            <div class="card-body">
+              <h5 class="card-title">Fasilitas</h5>
+              <ul>
+                <li>Perpustakaan digital & fisik</li>
+                <li>Laboratorium komputer</li>
+                <li>Ruang olahraga dan auditorium</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri singkat (gunakan asset lokal) -->
+    <section class="mb-5">
+      <h2 class="mb-3">Galeri Kegiatan</h2>
+      <div class="row g-3 gallery">
+        <div class="col-6 col-md-3"><img src="assets/img/keg1.jpeg" alt="gal1"></div>
+        <div class="col-6 col-md-3"><img src="assets/img/keg2.jpg" alt="gal2"></div>
+        <div class="col-6 col-md-3"><img src="assets/img/keg3.jpeg" alt="gal3"></div>
+      </div>
+    </section>
+
+  </main>
+
+ <!-- Footer -->
+  <footer class="text-center text-white py-3" style="background: var(--brand);">
+    <div class="container">
+      <p class="mb-0">© 2025 Ngawulang Blog | Dibuat oleh Tashya Nurevprilia Setiani ❤️</p>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
